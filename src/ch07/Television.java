@@ -4,6 +4,16 @@ public class Television {
 	int channel;
 	int volume;
 	
+//	final : 초기화 이전까지 절대 변하지 않음
+	
+//	최대 및 최소 볼륨 지정
+//	final int maxVolume = 25;
+//	final int minVolume = 0;
+	
+//	최대 및 최소 채널 지정
+//	final int maxChannel = 15;
+//	final int minChannel = 1;
+	
 	void powerOn() {
 		System.out.println("전원을 켭니다.");
 	}
